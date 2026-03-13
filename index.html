@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BlushBasket</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #e91e63;
+  }
+
+  .navbar-brand .heart {
+    margin-right: 5px;
+  }
+
+  .navbar-nav {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-item {
+    margin-left: 30px;
+  }
+
+  .nav-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .nav-link:hover {
+    color: #e91e63;
+  }
+
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-icons input {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    margin-right: 20px;
+  }
+
+  .navbar-icons .icon {
+    margin-left: 15px;
+    font-size: 20px;
+  }
+
+  .hero {
+  position: relative;
+  height: 500px; 
+  overflow: hidden;
+}
+.hero img {
+  width: 1500px;
+  height: 500px;
+  object-fit:contain;
+  object-position:right;
+  background-color: #f5eeee;
+}
+
+.hero-text {
+  position: absolute;
+  left: 80px;
+  top: 50%;
+}
+.hero-text h1 {
+    font-size: 70px;
+    color: #483131;
+    font-family: 'Playfair Display', serif;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin: 15px 0;
+    color: #483131;
+}
+
+.hero-text button {
+    padding: 12px 25px;
+    background: #f5a3b7;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+  .shop-now-button {
+    background-color: #f7aabf;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .shop-now-button:hover {
+    background-color: #e91e63;
+  }
+
+  .products-section {
+    padding: 80px 50px;
+    text-align: center;
+  }
+
+  .products-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .product-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    padding: 20px;
+    transition: transform 0.2s;
+  }
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+  }
+
+  .product-card h3,.price {
+    margin-bottom: 10px;
+    
+     font-family: cursive;
+  }
+
+  .price {
+    font-size: 20px;
+    font-weight: 600;
+    color: #090809;
+    margin-bottom: 15px;
+  }
+
+  .product-card button {
+    background-color: #f7aabf;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .product-card button:hover {
+    background-color: #e91e63;
+  }
+
+</style>
+</head>
+
+<body>
+
+<nav class="navbar">
+  <div class="navbar-brand">
+    <span class="heart">♡</span> BlushBasket
+  </div>
+  <ul class="navbar-nav">
+    <button id="theme">♡</button>
+    <li class="nav-item"><a href="index1.html" class="nav-link">Home</a></li>
+    <li class="nav-item"><a href="ShopNow.html" class="nav-link">Shop</a></li>
+    <li class="nav-item"><a href="AboutUs.html" class="nav-link">About</a></li>
+    <li class="nav-item"><a href="Contactus.html" class="nav-link">Contact</a></li>
+  </ul>
+  <div class="navbar-icons">
+    <input type="text" placeholder="Search...">
+    <span class="icon">🛒</span>
+  </div>
+</nav>
+<section class="hero">
+        <a href="https://ibb.co/HT75PhJv"><img src="https://i.ibb.co/HT75PhJv/image.png" alt="image" border="0"></a>
+        <div class="hero-text">
+          <h1>New Arrivals</h1>
+          <p>Refresh your wardrobe</p>
+          <button>Shop Now</button>
+        </div>
+</section>
+<section class="products-section">
+  <h2>Featured Products</h2>
+
+  <div class="product-grid">
+
+    <div class="product-card">
+      <img src="https://i.ibb.co/Q76nhCjX/image.png" alt="">
+      <h3>Beige Long Dress</h3>
+      <div class="price">₹3000</div>
+      <button>View Product</button>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://i.ibb.co/DHKf7tVT/image.png" alt="">
+      <h3>Blue Handbag</h3>
+      <div class="price">₹6500</div>
+      <button>View Product</button>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://i.ibb.co/0jtnBFWM/image.png" alt="">
+      <h3>White Sneakers</h3>
+      <div class="price">₹5000</div>
+      <button>View Product</button>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://i.ibb.co/N6zRrMtt/image.png" alt="">
+      <h3>Layered Necklaces</h3>
+      <div class="price">₹2500</div>
+      <button>View Product</button>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+</section>
+</body>
+<script>
+const t = document.getElementById("theme");
+
+t.onclick = function() {
+
+  const nav = document.querySelector(".navbar");
+  const navi = document.querySelectorAll(".nav-link");
+  if(document.body.style.backgroundColor === "black") {
+      document.body.style.backgroundColor = "#f8f8f8";
+      document.body.style.color = "black";
+      nav.style.backgroundColor = "white";
+      for(let i = 0; i < navi.length; i++){
+          navi[i].style.color = "black";
+      }
+  } 
+  else {
+      document.body.style.backgroundColor = "black";
+      document.body.style.color = "white";
+      nav.style.backgroundColor = "black";
+      for(let i = 0; i < navi.length; i++){
+          navi[i].style.color = "white";
+      }
+  }
+}
+</script>
+</html>
