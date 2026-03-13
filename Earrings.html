@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PRODUCT INFORMATION</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body{
+            background-color: rgb(249, 237, 239);
+        }
+         h1{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-left: 800px;
+        }
+    #title{
+        align-content: left;
+    }
+    
+ #bootstrap {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 85%;
+}
+#notboots {
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+#bootstrap img {
+    width: 500px;
+    height: 600px;
+}
+.old-price {
+    color: gray;
+    font-size: 18px;
+}
+.mrp {
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.newprice{
+    color: rgb(221, 31, 31);
+    font-size: 35px;
+}
+.button-group {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+.button{
+    padding:20px;
+}
+#description{
+    font-size: 18px;
+}
+
+</style>
+</head>
+
+<body>
+    <h1 id="title"><u>PEARL EARRINGS</u></h1>
+<section id="bootstrap">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        
+        <div class="carousel-inner">
+            
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="E1.jpg" alt="Red bag">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="E2.jpg" alt="Red bag 2">
+            </div>
+             <div class="carousel-item" data-bs-interval="3000">
+                <img src="E3.jpg" alt="Red bag 2">
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" 
+                data-bs-target="#carouselExampleInterval" 
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" 
+                data-bs-target="#carouselExampleInterval" 
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <div id="notboots">
+             <p>Chunky Hoop Earrings, 14K Real Gold Plated, Hoop Earrings for Women with Textured Axis Ridge Design, Modern Chunky Hoops, Hypoallergenic, Water-Resistant, Non-Tarnish, 25 mm x 12.51 mm</p>
+             <p>______________________________________________________________________________________________________________________</p>
+            <p class="mrp">M.R.P: </p>
+            <div class="old-price">
+                <del>₹509</del><ins class="newprice">₹399</ins>
+            </div>
+           <div class="button">
+            <button class="btn btn-warning">Add to Cart</button>
+            <button class="btn btn-dark">Buy Now</button>
+            </div>
+       
+         <div id="description">
+             <p>_______________________________________________________________________________________________________________________________</p>
+             <ul>
+                <li>♥Angles with intention. Ridges placed with precision — modern, architectural energy.</li>
+                <li>♥Eco-Responsible: Made with recycled zinc, paired with a sturdy brass chain for lasting durability.</li>
+                <li>♥Water-Resistant & Hypoallergenic: No green marks, no tarnishing—Safe for sensitive skin—nickel-free and lead-free.</li>
+                <li>♥14K Gold Plated: Genuine gold plating for long-lasting shine.</li>
+                <li>♥Confidence Warranty: Backed by a 3-month warranty for peace of mind.</li>
+             </ul>
+        </div>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

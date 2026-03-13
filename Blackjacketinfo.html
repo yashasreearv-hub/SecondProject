@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PRODUCT INFORMATION</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body{
+            background-color: rgb(249, 237, 239);
+        }
+         h1{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-left: 800px;
+        }
+    #title{
+        align-content: left;
+    }
+    
+ #bootstrap {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 85%;
+}
+#notboots {
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+#bootstrap img {
+    width: 500px;
+    height: 600px;
+}
+.old-price {
+    color: gray;
+    font-size: 18px;
+}
+.mrp {
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.newprice{
+    color: rgb(221, 31, 31);
+    font-size: 35px;
+}
+.button-group {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+.button{
+    padding:20px;
+}
+#description{
+    font-size: 18px;
+}
+</style>
+</head>
+
+<body>
+    <h1 id="title"><u>BLACK JACKET</u></h1>
+<section id="bootstrap">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        
+        <div class="carousel-inner">
+            
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="BlackJacket.jpg" alt="Black jacket">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="B2.jpg" alt="Black jacket 2">
+            </div>
+             <div class="carousel-item" data-bs-interval="3000">
+                <img src="B4.jpg" alt="Black jacket 2">
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" 
+                data-bs-target="#carouselExampleInterval" 
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" 
+                data-bs-target="#carouselExampleInterval" 
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <div id="notboots">
+             <p>TAGAS Men's Regular Jacket Fit For Casual Wear || Low-Cut Standing Collar || Full Sleeve | Latest Stylish Jacket For Men ||Regular Fit Zip-Up Casual jacket|| bomber jacket for men(MJ-9015)</p>
+             <p>________________________________________________________________________________________________________________________</p>
+            <p class="mrp">M.R.P: </p>
+            <div class="old-price">
+                <del>₹1,499</del><ins class="newprice">₹899</ins>
+            </div>
+           <div class="button">
+            <button class="btn btn-warning">Add to Cart</button>
+            <button class="btn btn-dark">Buy Now</button>
+            </div>
+       
+         <div id="description">
+             <p>____________________________________________________________________________________________________________________________</p>
+             <ul>
+                <li>Comfort & Style: Best Winter wear with style of Bomber Jacket with Regular Fit.</li>
+                <li>Comfortable and durable: This bomber jacket It has a ribbed collar and cozy fit. It also has a smooth zipper closure and multiple pockets.</li>
+                <li>Fit and size: This bomber jacket has a slim and Regular fit that is neither too tight nor too loose. It runs true to size, but you can refer to the size chart in the product images to find your best fit.</li>
+                <li>Easy to care: This bomber jacket is machine or hand washable and tumble dry low. You can also iron it on low heat if needed.</li>
+                <li>A plastic-based material that is soft and water-resistant. It’s typically a very light material and is often used in windbreakers, but polyester alone is thin and isn’t the best insulator.</li>
+             </ul>
+        </div>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
